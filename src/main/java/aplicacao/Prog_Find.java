@@ -1,4 +1,4 @@
-package aplicacao;//Buscando dados salvos no Banco de Dados MySQL - metodo find
+package aplicacao;//Recuperando dados salvos no Banco de Dados MySQL - metodo find (busca)
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 
 import dominio.Pessoa;
 
-public class Programa {
+public class Prog_Find {
 
 	public static void main(String[] args) {
 				
